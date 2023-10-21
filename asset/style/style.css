@@ -1,0 +1,84 @@
+body {
+    background-image: url('../images/BG_CS_PR_00.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.id-card {
+    width: 300px;
+    height: 450px;
+    background: url("../images/wadah.png") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilepic img {
+    width: 150px;
+    height: 170px;
+    object-fit: cover;
+    margin: 0px 0px 10px 0px;
+
+}
+
+.icon img {
+  margin: 30px 0px 20px 0px;
+}
+
+.training {
+  color: #ffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin: 0px 0px;
+}
+
+.training p{
+  margin: 15px 0px 5px 0px;
+}
+
+.nama-npm {
+  color: #7ed3f3;
+  font-family: "Titillium Web SemiBold";
+  margin: 0px 0px;
+  margin: 0px 0px 15px 0px;
+
+}
+
+.nama {
+  font-size: 18px;
+  margin: 0px 0px;
+}
+.npm {
+  font-size: 15px;
+  margin: 0px 0px;
+}
+
+.contact {
+  margin: 0px 0px 0px 0px;
+}
+
+.kontak {
+  color: #ffff;
+  font-family: "Titillium Web SemiBold";
+  font-size: 15px;
+  margin: 0px 0px;
+}
+
+.contact svg{
+  fill: #ffff;
+  margin: 0px 2px;
+}
+
+.contact a{
+  text-decoration: none 
+}
